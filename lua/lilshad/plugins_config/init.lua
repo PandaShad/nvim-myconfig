@@ -1,0 +1,7 @@
+require("lilshad.plugins_config.telescope")
+require("lilshad.plugins_config.lsp_config")
+require("lilshad.plugins_config.treesitter")
+require("lilshad.plugins_config.indent-blankline")
+require("lilshad.plugins_config.catppuccin")
+require("lilshad.plugins_config.lualine")
+require("lilshad.plugins_config.dashboard")

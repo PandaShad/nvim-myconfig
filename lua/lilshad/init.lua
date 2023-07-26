@@ -16,9 +16,12 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
   -- Random stuff
   'nvim-treesitter/nvim-treesitter',
-	'tpope/vim-fugitive',
 	'nvim-tree/nvim-web-devicons',
   'lukas-reineke/indent-blankline.nvim',
+
+  -- Git stuff
+  'lewis6991/gitsigns.nvim',
+  'tpope/vim-fugitive',
 
 	-- LSP config
   {

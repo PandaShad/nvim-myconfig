@@ -12,7 +12,7 @@ vim.opt.scrolloff = 8
 -- Colorscheme
 vim.cmd.colorscheme "catppuccin-frappe"
 vim.opt.termguicolors = true
-vim.opt.colorcolumn = "80"
+-- vim.opt.colorcolumn = "80"
 
 -- Cursor
 vim.opt.guicursor = ""

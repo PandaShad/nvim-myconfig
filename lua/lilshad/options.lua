@@ -13,3 +13,16 @@ vim.opt.scrolloff = 8
 vim.cmd.colorscheme "catppuccin-frappe"
 vim.opt.termguicolors = true
 vim.opt.colorcolumn = "80"
+
+-- Cursor
+vim.opt.guicursor = ""
+
+-- Cursor line
+vim.opt.cursorline = true
+
+-- Split windows
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+
+-- Line wrapping
+vim.opt.wrap = false

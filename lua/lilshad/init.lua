@@ -18,6 +18,14 @@ local plugins = {
   'nvim-treesitter/nvim-treesitter',
 	'nvim-tree/nvim-web-devicons',
   'lukas-reineke/indent-blankline.nvim',
+  'tpope/vim-surround',
+
+  -- comment
+  {
+    'numToStr/Comment.nvim',
+    opts = {},
+    lazy = false,
+  },
 
   -- Git stuff
   'lewis6991/gitsigns.nvim',
@@ -56,6 +64,10 @@ local plugins = {
     }
   },
 
+  -- Windows navigation 
+  'christoomey/vim-tmux-navigator',
+  'szw/vim-maximizer',
+
   -- Customization
   {
     'catppuccin/nvim',
@@ -67,6 +79,10 @@ local plugins = {
     'glepnir/dashboard-nvim',
     event = 'VimEnter',
   },
+
+  -- Autopairs
+  'windwp/nvim-autopairs',
+  'windwp/nvim-ts-autotag'
 }
 
 local opts = {}

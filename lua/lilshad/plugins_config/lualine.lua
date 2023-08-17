@@ -1,5 +1,14 @@
 require('lualine').setup {
   options = {
-    theme = "catppuccin"
-  }
+    icons_enabled = true,
+    theme = "catppuccin",
+    disabled_filetypes = {
+      statusline = { 'dashboard', 'NvimTree' },
+      winbar = { 'dashboard', 'NvimTree' }
+    }
+  },
+  sections = {
+    lualine_a = { 'mode' },
+  },
+  extensions = { 'fugitive' }
 }

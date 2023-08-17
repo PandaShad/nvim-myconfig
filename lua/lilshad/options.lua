@@ -10,7 +10,6 @@ vim.wo.relativenumber = true
 vim.opt.scrolloff = 8
 
 -- Colorscheme
-vim.cmd.colorscheme "catppuccin-frappe"
 vim.opt.termguicolors = true
 -- vim.opt.colorcolumn = "80"
 

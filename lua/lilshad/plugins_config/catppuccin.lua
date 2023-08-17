@@ -4,8 +4,12 @@ require("catppuccin").setup({
   styles = {
     functions = { "italic" },
     keywords = { "bold" },
+    comment = { "italic" },
   },
   integrations = {
+    cmp = true,
+    gitsigns = true,
+    treesitter = true,
     mason = true,
     neotree = true,
     hop = true,
@@ -14,3 +18,5 @@ require("catppuccin").setup({
     dap = { enabled = true, enable_ui = true },
   }
 })
+
+vim.cmd.colorscheme "catppuccin"
